@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="H.MaterialSkin" Version="2.1.6" />
+    <ProjectReference Include="..\..\libs\H.MaterialSkin\H.MaterialSkin.csproj" />
   </ItemGroup>
 
   <ItemGroup Label="Resources">
