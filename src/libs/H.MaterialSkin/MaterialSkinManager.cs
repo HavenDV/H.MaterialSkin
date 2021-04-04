@@ -441,11 +441,13 @@
             foreach (ToolStripItem control in toolStrip.Items)
             {
                 control.BackColor = newBackColor;
+#if NET45_OR_GREATER
                 if (control is MaterialToolStripMenuItem && (control as MaterialToolStripMenuItem).HasDropDown)
                 {
                     //recursive call
                     UpdateToolStrip((control as MaterialToolStripMenuItem).DropDown, newBackColor);
                 }
+#endif
             }
         }
     }

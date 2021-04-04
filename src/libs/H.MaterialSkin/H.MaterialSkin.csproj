@@ -1,14 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net4.6.1</TargetFrameworks>
+    <TargetFrameworks>net4.0;net4.6.1</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
   </PropertyGroup>
   
   <PropertyGroup Label="NuGet">
-    <Version>2.1.5</Version>
+    <Version>2.1.6</Version>
     <PackageReleaseNotes>
+feat: Added net4.0 target.
     </PackageReleaseNotes>
     <Description>Google's Material Design on your windows forms.</Description>
     <PackageTags>material-ui, win-forms, material-design, forms, net4</PackageTags>
