@@ -8,7 +8,6 @@
     using System.Drawing.Text;
     using System.Linq;
     using System.Runtime.InteropServices;
-    using System.Runtime.Remoting.Channels;
     using System.Windows.Forms;
 
     public class MaterialForm : Form, IMaterialControl
