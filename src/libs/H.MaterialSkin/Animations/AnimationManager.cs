@@ -188,7 +188,7 @@
         /// The StartNewAnimation
         /// </summary>
         /// <param name="animationDirection">The animationDirection<see cref="AnimationDirection"/></param>
-        /// <param name="data">The data<see cref="object[]"/></param>
+        /// <param name="data">The data</param>
         public void StartNewAnimation(AnimationDirection animationDirection, object[] data = null)
         {
             StartNewAnimation(animationDirection, new Point(0, 0), data);
@@ -199,7 +199,7 @@
         /// </summary>
         /// <param name="animationDirection">The animationDirection<see cref="AnimationDirection"/></param>
         /// <param name="animationSource">The animationSource<see cref="Point"/></param>
-        /// <param name="data">The data<see cref="object[]"/></param>
+        /// <param name="data">The data</param>
         public void StartNewAnimation(AnimationDirection animationDirection, Point animationSource, object[] data = null)
         {
             if (!IsAnimating() || InterruptAnimation)
@@ -490,7 +490,7 @@
         /// <summary>
         /// The GetData
         /// </summary>
-        /// <returns>The <see cref="object[]"/></returns>
+        /// <returns></returns>
         public object[] GetData()
         {
             if (!Singular)
@@ -510,7 +510,7 @@
         /// The GetData
         /// </summary>
         /// <param name="index">The index<see cref="int"/></param>
-        /// <returns>The <see cref="object[]"/></returns>
+        /// <returns></returns>
         public object[] GetData(int index)
         {
             if (!(index < _animationDatas.Count))
@@ -571,7 +571,7 @@
         /// <summary>
         /// The SetData
         /// </summary>
-        /// <param name="data">The data<see cref="object[]"/></param>
+        /// <param name="data"></param>
         public void SetData(object[] data)
         {
             if (!Singular)

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFrameworks>net4.6.1</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="NuGet">
+    <Version>2.1.5</Version>
+    <PackageReleaseNotes>
+    </PackageReleaseNotes>
+    <Description>Google's Material Design on your windows forms.</Description>
+    <PackageTags>material-ui, win-forms, material-design, forms, net4</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup Label="Fonts">
+    <EmbeddedResource Include="Resources\*.ttf" />
+  </ItemGroup>
+
+  <ItemGroup Label="Resources">
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
