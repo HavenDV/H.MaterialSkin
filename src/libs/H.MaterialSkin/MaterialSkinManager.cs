@@ -1,7 +1,7 @@
 ﻿namespace MaterialSkin
 {
     using MaterialSkin.Controls;
-    using MaterialSkin.Properties;
+    using MaterialSkin.Utilities;
     using System;
     using System.Collections.Generic;
     using System.Drawing;
@@ -42,12 +42,12 @@
             // And https://www.codeproject.com/Articles/107376/Embedding-Font-To-Resources
 
             // Add font to system table in memory and save the font family
-            addFont(Resources.Roboto_Thin);
-            addFont(Resources.Roboto_Light);
-            addFont(Resources.Roboto_Regular);
-            addFont(Resources.Roboto_Medium);
-            addFont(Resources.Roboto_Bold);
-            addFont(Resources.Roboto_Black);
+            addFont(ResourcesUtilities.ReadFileAsBytes("Roboto-Thin.ttf"));
+            addFont(ResourcesUtilities.ReadFileAsBytes("Roboto-Light.ttf"));
+            addFont(ResourcesUtilities.ReadFileAsBytes("Roboto-Regular.ttf"));
+            addFont(ResourcesUtilities.ReadFileAsBytes("Roboto-Medium.ttf"));
+            addFont(ResourcesUtilities.ReadFileAsBytes("Roboto-Bold.ttf"));
+            addFont(ResourcesUtilities.ReadFileAsBytes("Roboto-Black.ttf"));
 
             RobotoFontFamilies = new Dictionary<string, FontFamily>();
             foreach (FontFamily ff in privateFontCollection.Families.ToArray())
