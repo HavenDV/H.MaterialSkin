@@ -34,7 +34,6 @@ namespace MaterialSkinExample
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
@@ -156,7 +155,6 @@ namespace MaterialSkinExample
             this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialLabel30 = new MaterialSkin.Controls.MaterialLabel();
-            this.menuIconList = new System.Windows.Forms.ImageList(this.components);
             this.materialContextMenuStrip1 = new MaterialSkin.Controls.MaterialContextMenuStrip();
             this.item1ToolStripMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.subItem1ToolStripMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
@@ -227,7 +225,6 @@ namespace MaterialSkinExample
             this.materialTabControl1.Controls.Add(this.tabPage6);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialTabControl1.ImageList = this.menuIconList;
             this.materialTabControl1.Location = new System.Drawing.Point(3, 64);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Name = "materialTabControl1";
@@ -467,7 +464,6 @@ namespace MaterialSkinExample
             this.materialButton23.Depth = 0;
             this.materialButton23.DrawShadows = true;
             this.materialButton23.HighEmphasis = false;
-            this.materialButton23.Icon = global::MaterialSkinExample.Properties.Resources.baseline_fingerprint_black_24dp;
             this.materialButton23.Location = new System.Drawing.Point(280, 221);
             this.materialButton23.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton23.MouseState = MaterialSkin.MouseState.HOVER;
@@ -526,7 +522,6 @@ namespace MaterialSkinExample
             this.materialFloatingActionButton1.AnimateShowHideButton = true;
             this.materialFloatingActionButton1.Depth = 0;
             this.materialFloatingActionButton1.DrawShadows = true;
-            this.materialFloatingActionButton1.Icon = global::MaterialSkinExample.Properties.Resources.plus;
             this.materialFloatingActionButton1.Location = new System.Drawing.Point(761, 221);
             this.materialFloatingActionButton1.Margin = new System.Windows.Forms.Padding(2);
             this.materialFloatingActionButton1.Mini = false;
@@ -571,7 +566,6 @@ namespace MaterialSkinExample
             this.materialButton24.Depth = 0;
             this.materialButton24.DrawShadows = true;
             this.materialButton24.HighEmphasis = false;
-            this.materialButton24.Icon = global::MaterialSkinExample.Properties.Resources.baseline_bluetooth_black_24dp;
             this.materialButton24.Location = new System.Drawing.Point(522, 221);
             this.materialButton24.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton24.MouseState = MaterialSkin.MouseState.HOVER;
@@ -590,7 +584,6 @@ namespace MaterialSkinExample
             this.materialButton22.Depth = 0;
             this.materialButton22.DrawShadows = true;
             this.materialButton22.HighEmphasis = false;
-            this.materialButton22.Icon = global::MaterialSkinExample.Properties.Resources.baseline_favorite_border_black_24dp;
             this.materialButton22.Location = new System.Drawing.Point(32, 221);
             this.materialButton22.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton22.MouseState = MaterialSkin.MouseState.HOVER;
@@ -612,7 +605,6 @@ namespace MaterialSkinExample
             this.materialLabel8.Name = "materialLabel8";
             this.materialLabel8.Size = new System.Drawing.Size(891, 95);
             this.materialLabel8.TabIndex = 57;
-            this.materialLabel8.Text = resources.GetString("materialLabel8.Text");
             // 
             // materialButton19
             // 
@@ -901,42 +893,6 @@ namespace MaterialSkinExample
             this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton10.UseAccentColor = true;
             this.materialButton10.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.White;
-            this.tabPage2.Controls.Add(this.materialComboBox6);
-            this.tabPage2.Controls.Add(this.materialComboBox2);
-            this.tabPage2.Controls.Add(this.materialComboBox5);
-            this.tabPage2.Controls.Add(this.materialComboBox4);
-            this.tabPage2.Controls.Add(this.materialComboBox3);
-            this.tabPage2.Controls.Add(this.materialLabel5);
-            this.tabPage2.Controls.Add(this.materialCheckedListBox1);
-            this.tabPage2.Controls.Add(this.materialComboBox1);
-            this.tabPage2.Controls.Add(this.materialLabel34);
-            this.tabPage2.Controls.Add(this.materialLabel33);
-            this.tabPage2.Controls.Add(this.materialLabel32);
-            this.tabPage2.Controls.Add(this.materialLabel31);
-            this.tabPage2.Controls.Add(this.materialSwitch7);
-            this.tabPage2.Controls.Add(this.materialRadioButton5);
-            this.tabPage2.Controls.Add(this.materialLabel26);
-            this.tabPage2.Controls.Add(this.materialRadioButton4);
-            this.tabPage2.Controls.Add(this.materialRadioButton1);
-            this.tabPage2.Controls.Add(this.materialRadioButton2);
-            this.tabPage2.Controls.Add(this.materialSwitch3);
-            this.tabPage2.Controls.Add(this.materialSwitch2);
-            this.tabPage2.Controls.Add(this.materialSwitch1);
-            this.tabPage2.Controls.Add(this.materialCheckBox6);
-            this.tabPage2.Controls.Add(this.materialCheckBox5);
-            this.tabPage2.Controls.Add(this.materialCheckbox3);
-            this.tabPage2.Controls.Add(this.materialCheckbox1);
-            this.tabPage2.ImageKey = "round_bluetooth_white_24dp.png";
-            this.tabPage2.Location = new System.Drawing.Point(4, 31);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1015, 520);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Selection Controls";
             // 
             // materialComboBox6
             // 
@@ -2032,7 +1988,6 @@ namespace MaterialSkinExample
             this.materialFlatButton2.Depth = 0;
             this.materialFlatButton2.DrawShadows = true;
             this.materialFlatButton2.HighEmphasis = false;
-            this.materialFlatButton2.Icon = global::MaterialSkinExample.Properties.Resources.minus;
             this.materialFlatButton2.Location = new System.Drawing.Point(29, 156);
             this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER;
@@ -2067,7 +2022,6 @@ namespace MaterialSkinExample
             this.MaterialButton2.Depth = 0;
             this.MaterialButton2.DrawShadows = true;
             this.MaterialButton2.HighEmphasis = true;
-            this.MaterialButton2.Icon = global::MaterialSkinExample.Properties.Resources.plus;
             this.MaterialButton2.Location = new System.Drawing.Point(755, 156);
             this.MaterialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.MaterialButton2.MouseState = MaterialSkin.MouseState.HOVER;
@@ -2340,20 +2294,6 @@ namespace MaterialSkinExample
             this.materialLabel30.TabIndex = 65;
             this.materialLabel30.Text = "Cards";
             // 
-            // menuIconList
-            // 
-            this.menuIconList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("menuIconList.ImageStream")));
-            this.menuIconList.TransparentColor = System.Drawing.Color.Transparent;
-            this.menuIconList.Images.SetKeyName(0, "round_assessment_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(1, "round_backup_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(2, "round_bluetooth_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(3, "round_bookmark_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(4, "round_build_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(5, "round_gps_fixed_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(6, "round_http_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(7, "round_report_problem_white_24dp.png");
-            this.menuIconList.Images.SetKeyName(8, "round_swap_vert_white_24dp.png");
-            // 
             // materialContextMenuStrip1
             // 
             this.materialContextMenuStrip1.BackColor = System.Drawing.Color.White;
@@ -2377,7 +2317,6 @@ namespace MaterialSkinExample
             this.item1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subItem1ToolStripMenuItem,
             this.subItem2ToolStripMenuItem});
-            this.item1ToolStripMenuItem.Image = global::MaterialSkinExample.Properties.Resources.minus;
             this.item1ToolStripMenuItem.Name = "item1ToolStripMenuItem";
             this.item1ToolStripMenuItem.Size = new System.Drawing.Size(170, 30);
             this.item1ToolStripMenuItem.Text = "Item 1";
@@ -2422,6 +2361,42 @@ namespace MaterialSkinExample
             this.item3ToolStripMenuItem.Name = "item3ToolStripMenuItem";
             this.item3ToolStripMenuItem.Size = new System.Drawing.Size(170, 30);
             this.item3ToolStripMenuItem.Text = "Item 3";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.White;
+            this.tabPage2.Controls.Add(this.materialComboBox6);
+            this.tabPage2.Controls.Add(this.materialComboBox2);
+            this.tabPage2.Controls.Add(this.materialComboBox5);
+            this.tabPage2.Controls.Add(this.materialComboBox4);
+            this.tabPage2.Controls.Add(this.materialComboBox3);
+            this.tabPage2.Controls.Add(this.materialLabel5);
+            this.tabPage2.Controls.Add(this.materialCheckedListBox1);
+            this.tabPage2.Controls.Add(this.materialComboBox1);
+            this.tabPage2.Controls.Add(this.materialLabel34);
+            this.tabPage2.Controls.Add(this.materialLabel33);
+            this.tabPage2.Controls.Add(this.materialLabel32);
+            this.tabPage2.Controls.Add(this.materialLabel31);
+            this.tabPage2.Controls.Add(this.materialSwitch7);
+            this.tabPage2.Controls.Add(this.materialRadioButton5);
+            this.tabPage2.Controls.Add(this.materialLabel26);
+            this.tabPage2.Controls.Add(this.materialRadioButton4);
+            this.tabPage2.Controls.Add(this.materialRadioButton1);
+            this.tabPage2.Controls.Add(this.materialRadioButton2);
+            this.tabPage2.Controls.Add(this.materialSwitch3);
+            this.tabPage2.Controls.Add(this.materialSwitch2);
+            this.tabPage2.Controls.Add(this.materialSwitch1);
+            this.tabPage2.Controls.Add(this.materialCheckBox6);
+            this.tabPage2.Controls.Add(this.materialCheckBox5);
+            this.tabPage2.Controls.Add(this.materialCheckbox3);
+            this.tabPage2.Controls.Add(this.materialCheckbox1);
+            this.tabPage2.ImageKey = "round_bluetooth_white_24dp.png";
+            this.tabPage2.Location = new System.Drawing.Point(4, 31);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1015, 520);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Selection Controls";
             // 
             // MainForm
             // 
@@ -2487,7 +2462,6 @@ namespace MaterialSkinExample
         private MaterialButton MaterialButton2;
         private MaterialLabel materialLabel2;
         private TabPage tabPage6;
-        private ImageList menuIconList;
         private MaterialListView materialListView1;
         private ColumnHeader columnHeader1;
         private ColumnHeader columnHeader2;

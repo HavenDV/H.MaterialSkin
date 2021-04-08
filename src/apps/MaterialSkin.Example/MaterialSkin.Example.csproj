@@ -6,24 +6,15 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup Label="Icons">
+    <EmbeddedResource Include="Icons\*.png" />
+  </ItemGroup>
+
   <ItemGroup Label="Images">
-    <None Include="Resources\*.png" />
+    <EmbeddedResource Include="Images\*.png" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\libs\H.MaterialSkin\H.MaterialSkin.csproj" />
   </ItemGroup>
-
-  <ItemGroup Label="Resources">
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  
 </Project>

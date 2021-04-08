@@ -12,10 +12,18 @@ namespace MaterialSkinExample
 
         public MainForm()
         {
-            InitializeComponent();
-
             // Initialize MaterialSkinManager
             materialSkinManager = MaterialSkinManager.Instance;
+
+            InitializeComponent();
+
+            this.materialButton23.Icon = global::MaterialSkin.Example.Resources.baseline_fingerprint_black_24dp;
+            this.materialFloatingActionButton1.Icon = global::MaterialSkin.Example.Resources.plus;
+            this.materialButton24.Icon = global::MaterialSkin.Example.Resources.baseline_bluetooth_black_24dp;
+            this.materialButton22.Icon = global::MaterialSkin.Example.Resources.baseline_favorite_border_black_24dp;
+            this.materialFlatButton2.Icon = global::MaterialSkin.Example.Resources.minus;
+            this.MaterialButton2.Icon = global::MaterialSkin.Example.Resources.plus;
+            this.item1ToolStripMenuItem.Image = global::MaterialSkin.Example.Resources.minus;
 
             // Set this to false to disable backcolor enforcing on non-materialSkin components
             // This HAS to be set before the AddFormToManage()
