@@ -17,13 +17,28 @@ namespace MaterialSkinExample
 
             InitializeComponent();
 
-            this.materialButton23.Icon = global::MaterialSkin.Example.Resources.baseline_fingerprint_black_24dp;
-            this.materialFloatingActionButton1.Icon = global::MaterialSkin.Example.Resources.plus;
-            this.materialButton24.Icon = global::MaterialSkin.Example.Resources.baseline_bluetooth_black_24dp;
-            this.materialButton22.Icon = global::MaterialSkin.Example.Resources.baseline_favorite_border_black_24dp;
-            this.materialFlatButton2.Icon = global::MaterialSkin.Example.Resources.minus;
-            this.MaterialButton2.Icon = global::MaterialSkin.Example.Resources.plus;
-            this.item1ToolStripMenuItem.Image = global::MaterialSkin.Example.Resources.minus;
+            ImageList.Images.Add("baseline_bluetooth_black_24dp.png", H.Resources.baseline_bluetooth_black_24dp);
+            ImageList.Images.Add("baseline_build_black_24dp.png", H.Resources.baseline_build_black_24dp);
+            ImageList.Images.Add("baseline_favorite_border_black_24dp.png", H.Resources.baseline_favorite_border_black_24dp);
+            ImageList.Images.Add("baseline_fingerprint_black_24dp.png", H.Resources.baseline_fingerprint_black_24dp);
+            ImageList.Images.Add("baseline_thumb_up_black_24dp.png", H.Resources.baseline_thumb_up_black_24dp);
+            ImageList.Images.Add("round_assessment_white_24dp.png", H.Resources.round_assessment_white_24dp);
+            ImageList.Images.Add("round_backup_white_24dp.png", H.Resources.round_backup_white_24dp);
+            ImageList.Images.Add("round_bluetooth_white_24dp.png", H.Resources.round_bluetooth_white_24dp);
+            ImageList.Images.Add("round_bookmark_white_24dp.png", H.Resources.round_bookmark_white_24dp);
+            ImageList.Images.Add("round_build_white_24dp.png", H.Resources.round_build_white_24dp);
+            ImageList.Images.Add("round_gps_fixed_white_24dp.png", H.Resources.round_gps_fixed_white_24dp);
+            ImageList.Images.Add("round_http_white_24dp.png", H.Resources.round_http_white_24dp);
+            ImageList.Images.Add("round_report_problem_white_24dp.png", H.Resources.round_report_problem_white_24dp);
+            ImageList.Images.Add("round_swap_vert_white_24dp.png", H.Resources.round_swap_vert_white_24dp);
+
+            materialButton23.Icon = H.Resources.baseline_fingerprint_black_24dp;
+            materialFloatingActionButton1.Icon = H.Resources.plus;
+            materialButton24.Icon = H.Resources.baseline_bluetooth_black_24dp;
+            materialButton22.Icon = H.Resources.baseline_favorite_border_black_24dp;
+            materialFlatButton2.Icon = H.Resources.minus;
+            MaterialButton2.Icon = H.Resources.plus;
+            item1ToolStripMenuItem.Image = H.Resources.minus;
 
             // Set this to false to disable backcolor enforcing on non-materialSkin components
             // This HAS to be set before the AddFormToManage()

@@ -6,6 +6,12 @@ This project is **temporarily paused** _(I still read every issue and check ever
 
 ![home](https://user-images.githubusercontent.com/8310271/66237904-9dff9380-e6cc-11e9-9f08-3c5ba182e144.png)
 
+Supported:
+- .Net Framework 4.0
+- .Net Framework 4.5+
+- .Net Core 3.1
+- .Net 5
+
 ## Nuget Package
 
 A nuget package version is available [here](https://www.nuget.org/packages/MaterialSkin.2/)

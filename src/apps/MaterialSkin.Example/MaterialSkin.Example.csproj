@@ -8,10 +8,19 @@
 
   <ItemGroup Label="Icons">
     <EmbeddedResource Include="Icons\*.png" />
+    <AdditionalFiles Include="Icons\*.png" />
   </ItemGroup>
 
   <ItemGroup Label="Images">
     <EmbeddedResource Include="Images\*.png" />
+    <AdditionalFiles Include="Images\*.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="H.Resources.Generator" Version="1.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

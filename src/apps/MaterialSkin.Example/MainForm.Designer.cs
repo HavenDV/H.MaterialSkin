@@ -33,6 +33,7 @@ namespace MaterialSkinExample
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
@@ -162,6 +163,7 @@ namespace MaterialSkinExample
             this.item2ToolStripMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.item3ToolStripMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
+            this.ImageList = new System.Windows.Forms.ImageList(this.components);
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage7.SuspendLayout();
@@ -224,6 +226,7 @@ namespace MaterialSkinExample
             this.materialTabControl1.Controls.Add(this.tabPage6);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialTabControl1.ImageList = this.ImageList;
             this.materialTabControl1.Location = new System.Drawing.Point(4, 98);
             this.materialTabControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -2458,6 +2461,12 @@ namespace MaterialSkinExample
             this.item3ToolStripMenuItem.Size = new System.Drawing.Size(170, 30);
             this.item3ToolStripMenuItem.Text = "Item 3";
             // 
+            // ImageList
+            // 
+            this.ImageList.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.ImageList.ImageSize = new System.Drawing.Size(24, 24);
+            this.ImageList.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -2630,5 +2639,6 @@ namespace MaterialSkinExample
         private MaterialLabel materialLabel38;
         private MaterialDivider materialDivider3;
         private MaterialDivider materialDivider2;
+        private ImageList ImageList;
     }
 }
