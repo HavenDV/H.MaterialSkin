@@ -17,6 +17,14 @@ feat: Added net4.0, net4.5, netcoreapp3.1 and net5.0-windows targets.
 
   <ItemGroup Label="Fonts">
     <EmbeddedResource Include="Resources\*.ttf" />
+    <AdditionalFiles Include="Resources\*.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="H.Resources.Generator" Version="1.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
