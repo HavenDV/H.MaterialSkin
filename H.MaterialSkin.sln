@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.MaterialSkin", "src\libs\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{60A52E9C-E181-48AB-9AA6-E2D141142459}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialSkin.Example", "src\apps\MaterialSkin.Example\MaterialSkin.Example.csproj", "{E1B96220-B0BE-42E3-9C6B-4A335C6C4FB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.MaterialSkin.Example", "src\apps\MaterialSkin.Example\H.MaterialSkin.Example.csproj", "{E1B96220-B0BE-42E3-9C6B-4A335C6C4FB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
