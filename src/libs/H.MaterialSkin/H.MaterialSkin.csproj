@@ -7,10 +7,11 @@
   </PropertyGroup>
   
   <PropertyGroup Label="NuGet">
-    <Version>2.1.9</Version>
+    <Version>2.1.10</Version>
     <PackageReleaseNotes>
 feat: Added net4.0, net4.5, netcoreapp3.1 and net5.0-windows targets.
 feat: Added MaterialSkinManager.GraphicsUnit property.
+feat: Added ScaleChildren=false for .Net 4.0.
     </PackageReleaseNotes>
     <Description>Google's Material Design on your windows forms.</Description>
     <PackageTags>material-ui, win-forms, material-design, forms, net40, net5</PackageTags>

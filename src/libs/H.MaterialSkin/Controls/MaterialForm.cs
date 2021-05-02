@@ -18,6 +18,10 @@
         [Browsable(false)]
         public MaterialSkinManager SkinManager => MaterialSkinManager.Instance;
 
+#if NET40
+        protected override bool ScaleChildren { get; } = false;
+#endif
+
         [Browsable(false)]
         public MouseState MouseState { get; set; }
 
